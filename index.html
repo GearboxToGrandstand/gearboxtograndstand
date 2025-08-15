@@ -102,6 +102,14 @@
     section:nth-child(even) {
       background: linear-gradient(135deg, #FFFFFF, #FCF6F0);
     }
+     <style>
+    #articles {
+      cursor: pointer; 
+    }
+
+    #articles:hover {
+      background-color: #f0f0f0; /* optional hover effect */
+    }
   </style>
 </head>
 <body>
@@ -121,12 +129,16 @@
     <p>This project is my personal initiative to explain Formula 1 engineering and race strategy in clear, simple language. I break down car technology, upgrades, and pit stop tactics so that every fan can understand the sport, from the garage to the grandstand.</p>
   </section>
 
- <a href="articles.html">
-  <section id="articles">
-    <h2>Articles</h2>
-    <p>In this section, I write articles covering the latest F1 technology, car upgrades, and race strategy. My goal is to take complex concepts and present them in a way that is easy to follow for fans of all levels.</p>
-  </section>
-</a>
+ <section id="articles">
+  <h2>Articles</h2>
+  <p>In this section, I write articles covering the latest F1 technology, car upgrades, and race strategy. My goal is to take complex concepts and present them in a way that is easy to follow for fans of all levels.</p>
+</section>
+
+<script>
+  document.getElementById("articles").onclick = function() {
+    window.location.href = "articles.html";
+  };
+</script>
 
   <section id="glossary">
     <h2>Glossary</h2>
