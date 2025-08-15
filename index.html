@@ -5,71 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gearbox to Grandstand</title>
   <style>
-/* Body styling */
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.7;
-  background-color: #F8F8F8; /* neutral, clean background */
-  color: #222222; /* dark gray text for professionalism */
-}
+    /* Base body styling */
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FAF7F2; /* soft warm cream */
+      color: #333333;
+      line-height: 1.8;
+    }
 
-/* Header */
-header {
-  background-color: #1C1C1C; /* sleek, professional dark */
-  color: #F0E6F6; /* very subtle lavender accent for elegance */
-  padding: 25px 0;
-  text-align: center;
-  border-bottom: 2px solid #D8B4E2; /* subtle refined accent line */
-}
+    /* Header */
+    header {
+      background-color: #2C2C2C; /* sleek, modern dark for professionalism */
+      color: #F5EAE0; /* soft warm accent */
+      padding: 35px 20px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    }
 
-/* Navigation links */
-nav a {
-  color: #F0E6F6; /* subtle accent */
-  margin: 0 20px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-}
-nav a:hover {
-  color: #D8B4E2; /* refined accent on hover */
-  text-decoration: underline;
-}
+    header h1 {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0;
+      font-family: 'Georgia', serif; /* elegant serif for a curated feel */
+    }
 
-/* Sections */
-section {
-  padding: 50px 20px;
-  max-width: 1000px;
-  margin: 40px auto;
-  background-color: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* subtle professional depth */
-}
+    /* Navigation */
+    nav {
+      margin-top: 18px;
+    }
 
-/* Section headings */
-h2 {
-  color: #D8B4E2; /* subtle refined accent */
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 28px;
-}
+    nav a {
+      color: #F5EAE0;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.3s, transform 0.3s;
+    }
 
-/* Paragraphs */
-p {
-  font-size: 17px;
-  line-height: 1.9;
-}
+    nav a:hover {
+      color: #D8B4A6; /* muted warm rose accent */
+      transform: translateY(-2px);
+    }
 
-/* Footer */
-footer {
-  background-color: #1C1C1C;
-  color: #F0E6F6;
-  text-align: center;
-  padding: 25px 0;
-  font-size: 14px;
-}
+    /* Section styling */
+    section {
+      padding: 70px 25px;
+      max-width: 1000px;
+      margin: 50px auto;
+      background-color: #FFFFFF;
+      border-radius: 16px; /* soft rounded edges like home decor */
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    /* Section headings */
+    h2 {
+      color: #D8B4A6; /* subtle warm accent */
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-family: 'Georgia', serif;
+      font-size: 32px;
+    }
+
+    /* Paragraphs */
+    p {
+      font-size: 17px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2C2C2C;
+      color: #F5EAE0;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 14px;
+    }
+
+    /* Smooth scrolling for nav links */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Optional: alternating soft gradient for section flow */
+    section:nth-child(even) {
+      background: linear-gradient(135deg, #FFFFFF, #FCF6F0);
+    }
   </style>
 </head>
 <body>
