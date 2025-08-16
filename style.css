@@ -12,13 +12,14 @@ body {
   background: #1c1c1c; /* dark neutral base */
   color: #f5f5f5;
   line-height: 1.7;
+  min-height: 100vh;
 }
 
 /* ============================= */
 /* HEADER                        */
 /* ============================= */
 header {
-  background: #262626; /* subtle charcoal header */
+  background: #262626; 
   color: #f5f5f5;
   padding: 20px;
   text-align: center;
@@ -26,7 +27,7 @@ header {
 }
 
 header h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin-bottom: 5px;
 }
 
@@ -67,12 +68,8 @@ section {
 }
 
 /* ============================= */
-/* ARTICLES SECTION              */
+/* ARTICLES LIST                 */
 /* ============================= */
-#articles p {
-  margin-bottom: 15px;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -99,11 +96,11 @@ ul li a:hover {
 }
 
 /* ============================= */
-/* ARTICLE PAGES                 */
+/* ARTICLE PAGE STYLING           */
 /* ============================= */
 article h2 {
   color: #f1a6b2;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 article h3 {
@@ -142,6 +139,6 @@ body::before {
   height: 100%;
   background: url('images/F1-Silhouette.png') no-repeat center;
   background-size: 60%;
-  opacity: 0.03; /* subtle watermark */
+  opacity: 0.03;
   z-index: -1;
 }
