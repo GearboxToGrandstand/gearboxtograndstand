@@ -3,156 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gearbox to Grandstand</title>
-  <style>
-    /* Base body styling */
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #FAF7F2; /* soft warm cream */
-      color: #333333;
-      line-height: 1.8;
-    }
-
-    /* Header */
-    header {
-      background-color: #2C2C2C; /* sleek, modern dark for professionalism */
-      color: #F5EAE0; /* soft warm accent */
-      padding: 35px 20px;
-      text-align: center;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
-    }
-
-    header h1 {
-      font-size: 38px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin: 0;
-      font-family: 'Georgia', serif; /* elegant serif for a curated feel */
-    }
-
-    /* Navigation */
-    nav {
-      margin-top: 18px;
-    }
-
-    nav a {
-      color: #F5EAE0;
-      margin: 0 18px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 16px;
-      transition: color 0.3s, transform 0.3s;
-    }
-
-    nav a:hover {
-      color: #D8B4A6; /* muted warm rose accent */
-      transform: translateY(-2px);
-    }
-
-    /* Section styling */
-    section {
-      padding: 70px 25px;
-      max-width: 1000px;
-      margin: 50px auto;
-      background-color: #FFFFFF;
-      border-radius: 16px; /* soft rounded edges like home decor */
-      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-    section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-    }
-
-    /* Section headings */
-    h2 {
-      color: #D8B4A6; /* subtle warm accent */
-      text-align: center;
-      margin-bottom: 25px;
-      font-weight: 700;
-      font-family: 'Georgia', serif;
-      font-size: 32px;
-    }
-
-    /* Paragraphs */
-    p {
-      font-size: 17px;
-      text-align: justify;
-      text-justify: inter-word;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #2C2C2C;
-      color: #F5EAE0;
-      text-align: center;
-      padding: 30px 0;
-      font-size: 14px;
-    }
-
-    /* Smooth scrolling for nav links */
-    html {
-      scroll-behavior: smooth;
-    }
-
-    /* Optional: alternating soft gradient for section flow */
-    section:nth-child(even) {
-      background: linear-gradient(135deg, #FFFFFF, #FCF6F0);
-    }
-     <style>
-    #articles {
-      cursor: pointer; 
-    }
-
-    #articles:hover {
-      background-color: #f0f0f0; /* optional hover effect */
-    }
-  </style>
+  <title>Gearbox to Grandstand - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
     <h1>Gearbox to Grandstand</h1>
+    <p>Explaining Formula 1 in a simple, enjoyable way 🏎️✨</p>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#articles">Articles</a>
-      <a href="#glossary">Glossary</a>
-      <a href="#about">About</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="articles.html">Articles</a>
     </nav>
   </header>
 
-  <section id="home">
-    <h2>Welcome to Gearbox to Grandstand</h2>
-    <p>This project is my personal initiative to explain Formula 1 engineering and race strategy in clear, simple language. I break down car technology, upgrades, and pit stop tactics so that every fan can understand the sport, from the garage to the grandstand.</p>
-  </section>
+  <main>
+    <section id="intro">
+      <h2>Welcome!</h2>
+      <p>
+        Formula 1 can feel complex — hybrid engines, aerodynamics, pit stop strategies, and more.  
+        Here, I simplify all the technical details so fans of all levels can understand and enjoy the sport.
+      </p>
+    </section>
 
- <section id="articles">
-  <h2>Articles</h2>
-  <p>In this section, I write articles covering the latest F1 technology, car upgrades, and race strategy. My goal is to take complex concepts and present them in a way that is easy to follow for fans of all levels.</p>
-</section>
-
-<script>
-  document.getElementById("articles").onclick = function() {
-    window.location.href = "articles.html";
-  };
-</script>
-
-  <section id="glossary">
-    <h2>Glossary</h2>
-    <p>Here, I define key Formula 1 terms and concepts. This glossary is designed to help fans understand technical jargon and abbreviations used in the sport, so no one feels lost while watching or reading about F1.</p>
-  </section>
-
-  <section id="about">
-    <h2>About This Project</h2>
-    <p>Gearbox to Grandstand is my personal project to make Formula 1 engineering accessible to everyone. I combine my passion for racing with research and analysis to provide clear, accurate explanations. This project allows me to share my knowledge with fans and build my skills in motorsport media and communication.</p>
-  </section>
+    <section id="articles">
+      <h2>Articles</h2>
+      <p>Click below to explore all the articles I’ve written about F1 technology and strategy:</p>
+      <ul>
+        <li><a href="articles.html">View All Articles</a></li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Gearbox to Grandstand</p>
+    <p>&copy; 2025 Gearbox to Grandstand | Built with ❤️ and F1 passion</p>
   </footer>
-
 </body>
 </html>
