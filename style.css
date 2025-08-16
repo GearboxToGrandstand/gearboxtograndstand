@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: #1c1c1c; /* dark, neutral base */
+  background: #1c1c1c; /* dark neutral base */
   color: #f5f5f5;
   line-height: 1.7;
 }
@@ -84,7 +84,7 @@ ul li {
 
 ul li a {
   display: block;
-  background: #2a2a2a; /* subtle card-like background */
+  background: #2a2a2a;
   padding: 15px;
   border-radius: 10px;
   color: #f5f5f5;
@@ -113,6 +113,10 @@ article h3 {
   padding-left: 10px;
 }
 
+article p {
+  margin-bottom: 15px;
+}
+
 /* ============================= */
 /* FOOTER                        */
 /* ============================= */
@@ -138,6 +142,6 @@ body::before {
   height: 100%;
   background: url('images/F1-Silhouette.png') no-repeat center;
   background-size: 60%;
-  opacity: 0.03; /* barely noticeable watermark */
+  opacity: 0.03; /* subtle watermark */
   z-index: -1;
 }
